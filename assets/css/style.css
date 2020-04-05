@@ -1,0 +1,403 @@
+/*
+	================================
+	* Author: Showkat Jamil Jubayer
+	* Author URL: codersflow.com
+	* PSD Collected From: Freebiesbug
+	* Email: showkatjubayer@gmail.com
+	* facebook: fb/codersflow
+	================================
+*/
+
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+
+/* Basic Css*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #fff;
+	color: #3e454f;
+	font-family: 'Roboto', sans-serif; 
+}
+
+section {
+	padding: 120px 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 56px;
+	font-weight: 400;
+	line-height: 60px;
+	padding-bottom: 30px;
+}
+
+h2 {
+	font-size: 34px;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+p {
+	font-size: 18px;
+	line-height: 22px;
+	color: #6b7c93;
+	font-weight: 300;
+}
+
+.btn {
+	padding: 12px 30px;
+	color: #58b45c;
+	background: #fff;
+	border-radius: 25px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    transition: .3s ease-in-out;
+}
+.btn:hover {
+	background:  #58b45c;
+	color: #fff;
+}
+
+/* Header Section */
+
+.header-section{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #f7f7f7;
+}
+.left-top-header {
+    width: 100%;
+    padding-top: 10px;
+}
+.left-top-header ul{
+	padding: 0px;
+	margin: 0px;
+}
+.left-top-header ul li{
+	list-style: none;
+	display: inline-block;
+}
+.left-top-header ul li a {
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px;
+    color: #3e454f;
+}
+.left-top-header ul li a:hover{
+	color:#4caf50;
+}
+.left-top-header ul li a i{
+	margin-right: 10px;
+}
+
+.right-top-header{
+	width: 100%;
+	padding-top: 10px;
+}
+.right-top-header ul{
+	float: right;
+}
+.right-top-header ul li{
+	list-style: none;
+	display: inline-block;
+}
+.right-top-header ul li a{
+	font-size: 13px;
+    font-weight: 700;
+    margin-right: 15px;
+    color: #3e454f;
+    
+}
+.right-top-header ul li a:hover{
+	color: #4caf50;
+}
+.isStuck{
+    left:0px;
+    width:100%;
+    background: rgb(255, 255, 255, .9);
+}
+.navbar-wrapper {
+    margin-top:0px;
+    padding: 0;
+    width: 100%;
+    z-index: 15;
+    box-shadow: 2px 6px 10px #f1f1f1;
+ 	opacity: 0.99;
+}
+.main-menu{
+	width: 100%;
+}
+.main-menu .bg-light {
+    background-color: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+    color: #506a85;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #3e454f;
+    border: 3px solid #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 11px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover {
+
+	border-top: 3px solid #4caf50;
+}
+
+/* Banner Section */
+
+.banner-section {
+	padding-top: 150px;
+	background-image: url("../images/bg-landing.jpg");
+	background-position: center;
+	background-size: cover;
+	min-height: 700px;
+}
+.banner-section p {
+	padding-bottom: 30px;
+}
+
+/* Client Section */
+
+.client-section {
+	padding: 50px 0;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+/* Service Section */
+
+.service-section {
+	background-image: url("../images/bg-service.png");
+	background-position: center;
+	background-size: cover;
+	min-height: 650px;
+}
+.service-section h2 {
+	padding-bottom: 30px;
+}
+.service-section .fa {
+	font-size: 30px;
+	color: #58b45c; 
+}
+.service-section .card {
+	border: none;
+	background-color: transparent;
+}
+.service-section .flex-row:hover {
+	 color: #58b45c;  
+}
+.service-section .flex-row:hover .lead {
+	 color: #58b45c;  
+}
+
+/* Career Section*/
+
+.career-section {
+	padding-top: 190px;
+	background-image: url("../images/bg2.png");
+	background-position: center;
+	background-size: cover;
+	min-height: 750px;
+	text-align: left;
+}
+.career-section .card {
+	padding: 30px 0px;
+	border: none;
+	background-color: transparent;
+}
+.career-section h2 {
+	padding-bottom: 30px;
+}
+
+ /* Counter Section*/
+
+.counter-section {
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 300;
+	padding: 20px 0;
+	background: #3c4245;
+	text-align: center;
+}
+
+/* block counter */
+
+/*
+.block{ 
+	color:#000000; 
+	float: left;  
+	padding: 10px 0;
+	width: 180px; 
+	height: 160px; 
+	margin: 10px;
+}
+*/
+
+.block p {
+ margin: 0; 
+}
+.counter-wrapper { 
+	color: #32d5ba; 
+	font-weight:400; 
+	margin: 20px 10px;
+	padding: 25px 0;
+	font-size: 44px; 
+}
+  .sbc {
+	color: #80cbf3;
+}
+ .hbc {
+	color: #ffd449;
+}
+ .gbc {
+	color: #f44336;
+}
+
+.text-block{ font-size: 24px;
+			 color: #3e454f;
+}
+
+/* Contact Section */
+.contact-section {
+	padding: 0;
+	background-image: url("../images/bg-contact.png");
+	background-position: center;
+	background-size: cover;
+	min-height: 540px;
+}
+.contact-section h2 {
+	padding-bottom: 30px;
+}
+.contact-section p {
+	padding-bottom: 30px;
+}
+.contact-section .form-control {
+	padding: 30px 15px;
+	border: none;
+	background: #f7f7f7;
+}
+.contact-section .card {
+	padding: 40px 60px;
+	border: none;
+	box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+	text-transform: uppercase;
+}
+.contact-section .btn {
+	padding: 10px 28px;
+}
+
+/* Footer top section */
+.footer-top-section {
+	margin-top: -200px;
+	background-image: url("../images/foot.png");
+	background-position: center;
+	background-size: cover;
+	min-height: 300px;
+}
+
+/* Footer Section */
+
+.footer-section {
+	padding: 50px 0;
+	background: #f7f7f7;
+	color: #3e454f;
+}
+.footer-section h4 {
+	padding-bottom: 40px;
+}
+
+.footer-section ul li {
+	padding: 5px 0;
+	list-style: none;
+}
+
+.footer-section ul li a{
+	color: #3e454f;
+}
+
+.footer-section .fa {
+	font-size: 24px;
+	padding: 5px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+  
+}
+
+
+/*----- E N D ------*/
